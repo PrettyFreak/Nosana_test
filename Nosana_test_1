@@ -1,0 +1,220 @@
+{
+  "genesis_time": "2020-08-04T00:00:00Z",
+  "chain_id": "kichain-1",
+  "consensus_params": {
+    "block": {
+      "max_bytes": "22020096",
+      "max_gas": "-1",
+      "time_iota_ms": "1000"
+    },
+    "evidence": {
+      "max_age": "1000000"
+    },
+    "validator": {
+      "pub_key_types": [
+        "ed25519"
+      ]
+    }
+  },
+  "app_hash": "",
+  "app_state": {
+    "mint": {
+      "minter": {
+        "annual_provisions": "0.000000000000000000",
+        "inflation": "0.080000000000000000"
+      },
+      "params": {
+        "blocks_per_year": "6311520",
+        "goal_bonded": "0.670000000000000000",
+        "inflation_max": "0.140000000000000000",
+        "inflation_min": "0.020000000000000000",
+        "inflation_rate_change": "0.120000000000000000",
+        "mint_denom": "uxki"
+      }
+    },
+    "supply": {
+      "supply": []
+    },
+    "distribution": {
+      "fee_pool": {
+        "community_pool": []
+      },
+      "base_proposer_reward": "0.920000000000000000",
+      "bonus_proposer_reward": "0.040000000000000000",
+      "community_tax": "0.040000000000000000",
+      "withdraw_addr_enabled": true,
+      "delegator_withdraw_infos": [],
+      "previous_proposer": "",
+      "outstanding_rewards": [],
+      "validator_accumulated_commissions": [],
+      "validator_historical_rewards": [],
+      "validator_current_rewards": [],
+      "delegator_starting_infos": [],
+      "validator_slash_events": []
+    },
+    "slashing": {
+      "params": {
+        "downtime_jail_duration": "600000000000",
+        "max_evidence_age": "1814400000000000",
+        "min_signed_per_window": "0.050000000000000000",
+        "signed_blocks_window": "5000",
+        "slash_fraction_double_sign": "0.050000000000000000",
+        "slash_fraction_downtime": "0.000100000000000000"
+      },
+      "signing_infos": {},
+      "missed_blocks": {}
+    },
+    "staking": {
+      "params": {
+        "bond_denom": "uxki",
+        "max_entries": 7,
+        "max_validators": 100,
+        "unbonding_time": "1814400000000000"
+      },
+      "last_total_power": "0",
+      "last_validator_powers": null,
+      "validators": null,
+      "delegations": null,
+      "unbonding_delegations": null,
+      "redelegations": null,
+      "exported": false
+    },
+    "auth": {
+      "params": {
+        "max_memo_characters": "512",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10"
+      }
+    },
+    "crisis": {
+      "constant_fee": {
+        "amount": "1333000000",
+        "denom": "uxki"
+      }
+    },
+    "accounts": [
+      {
+        "address": "ki12lmge3nq8te4hu0935nj62hpwwyjwn54msxtn7",
+        "coins": [
+          {
+            "denom": "uxki",
+            "amount": "48000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [
+          {
+            "denom": "uxki",
+            "amount": "48000000000"
+          }
+        ],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "1612051200",
+        "end_time": "1690761600",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "ki12pah3wphg0x26dv0vcrexlavh95ea5wzqtg3q0",
+        "coins": [
+          {
+            "denom": "uxki",
+            "amount": "2272272000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [
+          {
+            "denom": "uxki",
+            "amount": "2272272000000"
+          }
+        ],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "1612051200",
+        "end_time": "1627689600",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "ki133j3xh9wjxq5lcwpvssw90jggszv2s3kkn4lpl",
+        "coins": [
+          {
+            "denom": "uxki",
+            "amount": "25000000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [
+          {
+            "denom": "uxki",
+            "amount": "25000000000000"
+          }
+        ],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "1690761600",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "ki13dn73w3rz59ecu85rp29eejegmpyuhh6d8x32j",
+        "coins": [
+          {
+            "denom": "uxki",
+            "amount": "200000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [
+          {
+            "denom": "uxki",
+            "amount": "200000000000"
+          }
+        ],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "1612051200",
+        "end_time": "1627689600",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "ki1427lsts2kw4lg77ersy74ehpjj7lvyycq7ud6f",
+        "coins": [
+          {
+            "denom": "uxki",
+            "amount": "113535000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [
+          {
+            "denom": "uxki",
+            "amount": "113535000000"
+          }
+        ],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "1612051200",
+        "end_time": "1690761600",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "ki157u97nxs56zylyva53y34kefy94e22rjtwv0tt",
+        "coins": [
+          {
+            "denom": "uxki",
+            "amount": "9400000000000"
+          }
+        ],
